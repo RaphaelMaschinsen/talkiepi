@@ -12,11 +12,11 @@ import (
 const (
 //	no LEDs on this board, these GPIOs are free to use
 //      don't use GPIO18 with this board
-	OnlineLEDPin       uint = 22
-	ParticipantsLEDPin uint = 23
-	TransmitLEDPin     uint = 24
+	OnlineLEDPin       uint = 5
+	ParticipantsLEDPin uint = 6
+	TransmitLEDPin     uint = 13
 //	This is the correct GPIO for the button
-	ButtonPin          uint = 17
+	ButtonPin          uint = 26
 )
 
 type Talkiepi struct {
