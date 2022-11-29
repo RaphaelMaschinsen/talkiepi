@@ -14,7 +14,7 @@ const (
 //      don't use GPIO18 with this board
 	OnlineLEDPin       uint = 4
 	ParticipantsLEDPin uint = 5
-	TransmitLEDPin     uint = 7
+	TransmitLEDPin     uint = 16
 //	This is the correct GPIO for the button
 	ButtonPin          uint = 26
 )
