@@ -12,9 +12,9 @@ import (
 const (
 //	no LEDs on this board, these GPIOs are free to use
 //      don't use GPIO18 with this board
-	OnlineLEDPin       uint = 5
-	ParticipantsLEDPin uint = 6
-	TransmitLEDPin     uint = 13
+	OnlineLEDPin       uint = 4
+	ParticipantsLEDPin uint = 5
+	TransmitLEDPin     uint = 7
 //	This is the correct GPIO for the button
 	ButtonPin          uint = 26
 )
