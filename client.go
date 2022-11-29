@@ -121,6 +121,7 @@ func (b *Talkiepi) OnConnect(e *gumble.ConnectEvent) {
 	if b.ChannelName != "" {
 		b.ChangeChannel(b.ChannelName)
 	}
+	b.TransmitStart()
 }
 
 func (b *Talkiepi) OnDisconnect(e *gumble.DisconnectEvent) {
