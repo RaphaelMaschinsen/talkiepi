@@ -61,6 +61,7 @@ func main() {
 	}
 
 	b.Init()
+	b.TransmitStart()
 
 	sigs := make(chan os.Signal, 1)
 	signal.Notify(sigs, syscall.SIGINT, syscall.SIGTERM)
